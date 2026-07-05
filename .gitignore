@@ -1,0 +1,15 @@
+# Ignore environment variables and secrets
+.env
+config.py
+secrets.txt
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore large dependency folders (adjust based on your language, e.g., node_modules for Node, venv/ for Python)
+node_modules/
+venv/
+.venv/
+bin/
+obj/config.py
